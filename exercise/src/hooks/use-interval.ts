@@ -1,5 +1,1 @@
-interface Callback {
-  (): void;
-}
-
-export function useInterval(ms: number, callback: Callback) {}
+export function useInterval() {}
