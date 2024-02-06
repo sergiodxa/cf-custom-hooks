@@ -1,5 +1,5 @@
 import { useId } from "react";
-import { useLocalStorage } from "../hooks/use-local-storage";
+import { useLocalStorage } from "../solution/use-local-storage";
 
 export function LocalStorage() {
   let id = useId();

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useInterval } from "../hooks/use-interval";
+import { useInterval } from "../solution/use-interval";
 
 export function Interval() {
   let [state, setState] = useState(0);

@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { useForceUpdate } from "../hooks/use-force-update";
+import { useForceUpdate } from "../solution/use-force-update";
 
 export function ForceUpdate() {
   let forceUpdate = useForceUpdate();

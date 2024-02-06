@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { usePrevious } from "../hooks/use-previous";
+import { usePrevious } from "../solution/use-previous";
 
 export function Previous() {
   let [state, setState] = useState("Initial");

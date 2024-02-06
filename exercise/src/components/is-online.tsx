@@ -1,4 +1,4 @@
-import { useIsOnline } from "../hooks/use-is-online";
+import { useIsOnline } from "../solution/use-is-online";
 
 export function IsOnline() {
   let isOnline = useIsOnline();

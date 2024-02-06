@@ -1,4 +1,4 @@
-import { useToggle } from "../hooks/use-toggle";
+import { useToggle } from "../solution/use-toggle";
 
 export function Toggle() {
   let [isEnabled, toggle] = useToggle();
