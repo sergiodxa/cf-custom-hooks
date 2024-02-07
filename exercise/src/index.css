@@ -33,3 +33,7 @@ h2 {
   aspect-ratio: 1/ 1;
   width: 50px;
 }
+
+.menu-open {
+  font-size: 2rem;
+}
