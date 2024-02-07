@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { useOnClickOutside } from "../hooks/use-on-click-outside";
+import { useOnClickOutside } from "../solution/use-on-click-outside";
 import { useAddMenuOpenClass } from "../hooks/use-add-menu-open-class";
 
 export function ClickOutside() {
