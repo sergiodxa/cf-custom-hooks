@@ -1,11 +1,14 @@
 import { useRef, useState } from "react";
-import { useOnClickOutside } from "../solution/use-on-click-outside";
+import { useOnClickOutside } from "../hooks/use-on-click-outside";
+import { useAddMenuOpenClass } from "../hooks/use-add-menu-open-class";
 
 export function ClickOutside() {
   let [isOpen, setState] = useState(false);
 
   let ref = useRef<HTMLUListElement>(null);
   useOnClickOutside(ref, () => setState(false));
+
+  useAddMenuOpenClass(ref);
 
   return (
     <section>
